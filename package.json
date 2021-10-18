@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "browser": "_site/app.js",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0-beta.2"
+  }
+}

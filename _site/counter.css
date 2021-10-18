@@ -1,0 +1,33 @@
+x-counter {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+x-counter-count {
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+x-counter button {
+  box-sizing: border-box;
+  height: 2rem;
+  width: 2rem;
+  font-size: 2rem;
+  line-height: 1;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 9999px;
+  color: white;
+  transition: all 300ms ease;
+}
+
+x-counter button:hover {
+  background-color: white;
+  color: black;
+}
